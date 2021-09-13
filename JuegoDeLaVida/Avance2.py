@@ -38,3 +38,15 @@ class matriz:
             for columnas in range(self.__columna):
                 self.__array[filas][columnas] = valor
 
+    def tablero(self):
+        for r in range(1,self.numn()+1):
+            for c in range(1,self.numcol()+1):
+                if self.getItem(r,c) == 0:
+                    print(" 0 ", end="")
+                else:
+                    print(" 1 ", end="")
+            print("")
+    def gen_uno(self, poblacion):
+        self.limpiar()
+        for celula in poblacion:
+            self.setItem(celula[0], celula[1], self.viva)
