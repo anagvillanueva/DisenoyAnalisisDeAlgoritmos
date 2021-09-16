@@ -46,6 +46,8 @@ class matriz:
                 else:
                     print(" 1 ", end="")
             print("")
+            
+            
     def gen_uno(self, poblacion):
         self.limpiar()
         for celula in poblacion:
