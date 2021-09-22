@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 22 09:55:08 2021
-
-@author: PC
-"""
 
 def busqueda_lineal(lista, val_a_buscar):
   contador = 0 #O(1)

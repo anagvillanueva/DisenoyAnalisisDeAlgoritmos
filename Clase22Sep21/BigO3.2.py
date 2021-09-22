@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 22 09:55:56 2021
-
-@author: PC
-"""
 
 #Ejercicio 3.2 
 numeros = [1,2,3]

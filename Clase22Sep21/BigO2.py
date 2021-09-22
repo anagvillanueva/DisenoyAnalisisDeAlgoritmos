@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 22 09:56:41 2021
-
-@author: PC
-"""
-
 #Ejercicio 2 
 numeros = [1,2,3]
 
